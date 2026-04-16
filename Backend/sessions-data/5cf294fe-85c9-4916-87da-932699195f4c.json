@@ -1,0 +1,184 @@
+{
+  "id": "5cf294fe-85c9-4916-87da-932699195f4c",
+  "messages": [
+    {
+      "role": "human",
+      "content": "Tell me about Tata Nexon",
+      "timestamp": "2026-04-02T06:31:11.559Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tata Nexon is a compact SUV that blends bold styling, high ground clearance (208 mm) and 5‑star safety. It’s available in petrol, diesel and electric (Nexon EV) variants, with a price range of roughly ₹7 L to ₹14 L. Key features include a 7‑inch touchscreen infotainment system, connected car technology, dual‑zone climate control, and a robust chassis for city and highway driving.",
+      "timestamp": "2026-04-02T06:31:15.094Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Nexon"
+        }
+      },
+      "follow_up": "Would you like to explore the different Nexon variants and see which one matches your preferences?"
+    },
+    {
+      "role": "human",
+      "content": "Tell me about Tata Safari",
+      "timestamp": "2026-04-02T06:32:50.023Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tata Safari is Tata Motors' flagship full-size SUV, designed for families and adventure seekers. It offers a spacious 6‑ or 7‑seat layout with a flexible third row, a powerful 2.0‑litre turbocharged diesel engine (or a 2.0‑litre turbo petrol in newer variants) delivering up to 170 hp, and a robust chassis for both city cruising and off‑road capability. Key highlights include a 9‑inch touchscreen infotainment system with Android Auto & Apple CarPlay, dual‑zone climate control, premium leather upholstery, advanced safety suite (6‑airbags, ESP, hill‑hold assist), and a generous boot space of around 420 L. Pricing typically ranges from ₹15 L to ₹26 L depending on the variant and optional features.",
+      "timestamp": "2026-04-02T06:32:53.190Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Safari"
+        }
+      },
+      "follow_up": "Would you like to explore the specific variants, check the on‑road price for your city, or discuss financing options?"
+    },
+    {
+      "role": "human",
+      "content": "What is the mileage of tata punch",
+      "timestamp": "2026-04-02T06:33:32.263Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The Tata Punch is a compact micro‑SUV powered by a 1.2 L Revotron petrol engine, delivering an ARAI certified mileage of around 17 kmpl (manual) and 16.5 kmpl (automatic).",
+      "timestamp": "2026-04-02T06:33:36.157Z",
+      "component": {
+        "required": true,
+        "name": "spec_table",
+        "content": {
+          "columns": [
+            {
+              "key": "feature",
+              "label": "Feature"
+            },
+            {
+              "key": "value",
+              "label": "Details"
+            }
+          ],
+          "rows": [
+            {
+              "feature": "Engine",
+              "value": "1.2 L Revotron Turbocharged Petrol"
+            },
+            {
+              "feature": "Power",
+              "value": "86 PS @ 5,500 rpm"
+            },
+            {
+              "feature": "Torque",
+              "value": "113 Nm @ 2,500‑3,500 rpm"
+            },
+            {
+              "feature": "Mileage (Manual)",
+              "value": "≈ 17 kmpl (ARAI)"
+            },
+            {
+              "feature": "Mileage (Automatic)",
+              "value": "≈ 16.5 kmpl (ARAI)"
+            },
+            {
+              "feature": "Transmission",
+              "value": "5‑speed Manual / 6‑speed AMT"
+            },
+            {
+              "feature": "Seating Capacity",
+              "value": "5‑seater"
+            },
+            {
+              "feature": "Boot Space",
+              "value": "300 L"
+            },
+            {
+              "feature": "Ground Clearance",
+              "value": "185 mm"
+            },
+            {
+              "feature": "Safety",
+              "value": "Dual‑front airbags, ABS, ESP, ISOFIX"
+            }
+          ]
+        }
+      },
+      "follow_up": "Would you like to explore the different variants and pricing, or see how the Punch fits into your budget with EMI options?"
+    }
+  ],
+  "userState": {
+    "budget": null,
+    "family_size": null,
+    "fuel_preference": null,
+    "usage_pattern": null,
+    "location": null,
+    "needs_interruption": false,
+    "is_hinglish_speaker": false,
+    "query_type": "spec_table"
+  },
+  "lastAgentOutput": {
+    "text": "The Tata Punch is a compact micro‑SUV powered by a 1.2 L Revotron petrol engine, delivering an ARAI certified mileage of around 17 kmpl (manual) and 16.5 kmpl (automatic).",
+    "component": {
+      "required": true,
+      "name": "spec_table",
+      "content": {
+        "columns": [
+          {
+            "key": "feature",
+            "label": "Feature"
+          },
+          {
+            "key": "value",
+            "label": "Details"
+          }
+        ],
+        "rows": [
+          {
+            "feature": "Engine",
+            "value": "1.2 L Revotron Turbocharged Petrol"
+          },
+          {
+            "feature": "Power",
+            "value": "86 PS @ 5,500 rpm"
+          },
+          {
+            "feature": "Torque",
+            "value": "113 Nm @ 2,500‑3,500 rpm"
+          },
+          {
+            "feature": "Mileage (Manual)",
+            "value": "≈ 17 kmpl (ARAI)"
+          },
+          {
+            "feature": "Mileage (Automatic)",
+            "value": "≈ 16.5 kmpl (ARAI)"
+          },
+          {
+            "feature": "Transmission",
+            "value": "5‑speed Manual / 6‑speed AMT"
+          },
+          {
+            "feature": "Seating Capacity",
+            "value": "5‑seater"
+          },
+          {
+            "feature": "Boot Space",
+            "value": "300 L"
+          },
+          {
+            "feature": "Ground Clearance",
+            "value": "185 mm"
+          },
+          {
+            "feature": "Safety",
+            "value": "Dual‑front airbags, ABS, ESP, ISOFIX"
+          }
+        ]
+      }
+    },
+    "follow_up": "Would you like to explore the different variants and pricing, or see how the Punch fits into your budget with EMI options?"
+  },
+  "createdAt": "2026-04-02T06:16:53.225Z",
+  "updatedAt": "2026-04-02T06:33:36.163Z"
+}

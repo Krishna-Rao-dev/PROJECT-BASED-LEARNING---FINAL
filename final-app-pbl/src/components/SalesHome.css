@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --navy: #0c1426;
+  --navy-mid: #14213d;
+  --navy-light: #1e3160;
+  --gold: #c9a84c;
+  --gold-light: #e2c97e;
+  --gold-dim: rgba(201, 168, 76, 0.1);
+  --white: #f8f6f1;
+  --muted: #8a9ab5;
+  --border: rgba(201, 168, 76, 0.15);
+  --sidebar-w: 240px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sh-root {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--navy);
+  color: var(--white);
+}
+
+/* Sidebar */
+.sh-sidebar {
+  width: var(--sidebar-w);
+  min-height: 100vh;
+  background: rgba(12, 20, 38, 0.98);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.sh-sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.sh-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.75rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
+}
+
+.sh-logo-icon {
+  font-size: 1.5rem;
+  color: var(--gold);
+}
+
+.sh-logo-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  color: var(--white);
+}
+
+.sh-logo-sub {
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.sh-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0 0.75rem;
+}
+
+.sh-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 0.02em;
+}
+
+.sh-nav-item:hover {
+  background: var(--gold-dim);
+  color: var(--white);
+}
+
+.sh-nav-active {
+  background: var(--gold-dim) !important;
+  color: var(--gold) !important;
+  border-left: 2px solid var(--gold) !important;
+}
+
+.sh-nav-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* Bottom exec section */
+.sh-sidebar-bottom {
+  padding: 1rem 1.25rem 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.sh-exec-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  margin-bottom: 0.75rem;
+}
+
+.sh-exec-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gold-dim);
+  border: 1px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.sh-exec-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.sh-exec-email {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.sh-logout {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 0.55rem 0.9rem;
+  color: var(--muted);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  width: 100%;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.sh-logout:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* Content area */
+.sh-content {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 80% 10%, rgba(30, 49, 96, 0.3) 0%, transparent 50%),
+    var(--navy);
+  padding: 2.5rem 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .sh-sidebar { width: 200px; }
+  .sh-content { margin-left: 200px; padding: 1.5rem 1rem; }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "14dc139c-ac02-43a6-9f6c-76e37494f262",
+  "messages": [],
+  "userState": {
+    "budget": null,
+    "family_size": null,
+    "fuel_preference": null,
+    "usage_pattern": null,
+    "location": null,
+    "needs_interruption": false,
+    "is_hinglish_speaker": false,
+    "query_type": "general"
+  },
+  "lastAgentOutput": {
+    "text": "The Harrier is a 5‑seat premium SUV, while the Safari adds an optional 3rd row for 6‑7 seats, offering slightly more space and similar powertrain options.",
+    "component": {
+      "required": true,
+      "name": "comparison_table",
+      "content": {
+        "columns": [
+          {
+            "key": "feature",
+            "label": "Feature"
+          },
+          {
+            "key": "car1",
+            "label": "Tata Harrier"
+          },
+          {
+            "key": "car2",
+            "label": "Tata Safari"
+          }
+        ],
+        "rows": [
+          {
+            "feature": "Seating",
+            "car1": "5",
+            "car2": "6‑7 (optional 3rd row)"
+          },
+          {
+            "feature": "Price (on‑road)",
+            "car1": "₹14‑25 Lakh",
+            "car2": "₹14.6‑26 Lakh"
+          },
+          {
+            "feature": "Engine Options",
+            "car1": "2.0 L Turbo Petrol / 2.0 L Turbo Diesel",
+            "car2": "2.0 L Turbo Petrol / 2.0 L Turbo Diesel"
+          },
+          {
+            "feature": "Power (Petrol)",
+            "car1": "170 PS @ 5,500 rpm",
+            "car2": "170 PS @ 5,500 rpm"
+          },
+          {
+            "feature": "Power (Diesel)",
+            "car1": "170 PS @ 3,500 rpm",
+            "car2": "170 PS @ 3,500 rpm"
+          },
+          {
+            "feature": "Torque (Petrol)",
+            "car1": "350 Nm @ 1,750‑4,500 rpm",
+            "car2": "350 Nm @ 1,750‑4,500 rpm"
+          },
+          {
+            "feature": "Torque (Diesel)",
+            "car1": "350 Nm @ 1,500‑3,500 rpm",
+            "car2": "350 Nm @ 1,500‑3,500 rpm"
+          },
+          {
+            "feature": "Boot Space",
+            "car1": "406 L",
+            "car2": "420 L (up to 1,200 L with 3rd row folded)"
+          },
+          {
+            "feature": "3rd‑Row Seat",
+            "car1": "No",
+            "car2": "Yes (optional)"
+          },
+          {
+            "feature": "Safety",
+            "car1": "5‑Star Global NCAP",
+            "car2": "5‑Star Global NCAP"
+          },
+          {
+            "feature": "Infotainment",
+            "car1": "8.8‑inch touchscreen, Connected Car",
+            "car2": "8.8‑inch touchscreen, Connected Car"
+          },
+          {
+            "feature": "Fuel Types",
+            "car1": "Petrol, Diesel",
+            "car2": "Petrol, Diesel"
+          }
+        ]
+      }
+    },
+    "follow_up": "Would you like to explore the Safari’s 3rd‑row option for a larger family, or does the Harrier’s sportier 5‑seat layout suit your needs better?"
+  },
+  "createdAt": "2026-03-29T07:24:32.962Z",
+  "updatedAt": "2026-03-29T07:27:34.484Z"
+}

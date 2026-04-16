@@ -1,0 +1,118 @@
+{
+  "id": "87bcbd33-9624-489b-b2b5-a012718118d8",
+  "messages": [
+    {
+      "role": "human",
+      "content": "Tell me about Tata Nexon",
+      "timestamp": "2026-04-02T08:33:26.024Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tata Nexon is a compact SUV that offers a blend of style, safety and performance. Key highlights:\n- 5‑star Global NCAP safety rating with dual airbags, ABS, ESP and ISOFIX.\n- Ground clearance of 208 mm, ideal for Indian roads.\n- Engine options: 1.2‑L Turbocharged Petrol (up to 118 PS) and 1.5‑L Turbo Diesel (up to 108 PS).\n- Transmission: 6‑speed manual or 6‑speed AMT.\n- Features: 7‑inch touchscreen infotainment, Android Auto & Apple CarPlay, automatic climate control, projector headlamps, and 360‑degree camera on top trims.\n- Price range: approx ₹7.99 lakh to ₹13.99 lakh (ex‑showroom), depending on variant and fuel type.\n- Strong resale value and low ownership cost.",
+      "timestamp": "2026-04-02T08:33:30.494Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Nexon"
+        }
+      },
+      "follow_up": "Would you like to explore specific variants, financing options, or compare it with other SUVs?"
+    },
+    {
+      "role": "human",
+      "content": "also tell me about tata punch",
+      "timestamp": "2026-04-02T08:34:00.355Z"
+    },
+    {
+      "role": "assistant",
+      "content": "**Tata Punch** – a compact micro‑SUV perfect for city driving.\n\n- **Segment:** Micro SUV / sub‑compact\n- **Seating:** 5‑seater\n- **Engine Options:** 1.2 L Turbocharged Petrol (≈ 90 PS, 140 Nm) and 1.2 L Turbocharged Diesel (≈ 90 PS, 200 Nm)\n- **Transmission:** 5‑speed manual / 6‑speed AMT\n- **Ground Clearance:** 188 mm (high enough for Indian roads)\n- **Safety:** 4‑star Global NCAP rating, dual airbags, ABS with EBD, ESC, ISOFIX\n- **Key Features:** 7‑inch touchscreen infotainment, Android Auto & Apple CarPlay, projector headlamps, LED DRLs, rear parking sensors, automatic climate control (top trims)\n- **Price (ex‑showroom):** approx **₹6.5 L** – **₹9.5 L** depending on variant and fuel type\n- **Ownership:** Low running cost, good resale value, 5‑year/1,50,000 km warranty",
+      "timestamp": "2026-04-02T08:34:05.847Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Punch"
+        }
+      },
+      "follow_up": "Would you like to explore the different variants, see on‑road pricing for your city, or calculate the EMI for a specific configuration?"
+    },
+    {
+      "role": "human",
+      "content": "tell me about tata harrier",
+      "timestamp": "2026-04-02T08:34:30.305Z"
+    },
+    {
+      "role": "assistant",
+      "content": "**Tata Harrier** – a premium mid‑size SUV that blends robust design with refined performance.\n\n- **Segment:** Mid‑size SUV (5‑seater)\n- **Engine Options:** 2.0 L Turbocharged Diesel (170 PS, 350 Nm) – available with 6‑speed manual or 6‑speed AMT; 2.0 L Turbo Petrol (170 PS, 350 Nm) – 6‑speed manual only.\n- **Transmission:** 6‑speed manual / 6‑speed AMT (diesel)\n- **Safety:** 5‑star Global NCAP rating, 6‑airbag system, ABS with EBD, ESP, ISOFIX, rear‑parking sensors, 360° camera on top trims.\n- **Key Features:** 8.8‑inch touchscreen infotainment with Android Auto & Apple CarPlay, dual‑zone automatic climate control, projector headlamps with LED DRLs, panoramic sunroof, premium upholstery, and Tata’s iRA (Intelligent Real‑time Assist) driver‑assist tech.\n- **Ground Clearance:** 205 mm – ideal for Indian road conditions.\n- **Price (ex‑showroom):** approx **₹14.5 L** – **₹20.5 L** depending on variant and fuel type.\n- **Warranty & Service:** 5‑year/1,50,000 km warranty, 3‑year roadside assistance, optional Tata Motors Service packages.\n\nReady to experience the Harrier’s commanding road presence? Let’s discuss which variant suits your needs or schedule a test‑drive today!",
+      "timestamp": "2026-04-02T08:34:34.178Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Harrier"
+        }
+      },
+      "follow_up": "Do you have a preferred fuel type or budget range in mind, or would you like to explore financing options for the Harrier?"
+    },
+    {
+      "role": "human",
+      "content": "altroz tell me about it",
+      "timestamp": "2026-04-02T08:35:38.425Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Tata Altroz is a premium hatchback that blends stylish design with strong safety and a refined driving experience. Key highlights:\n- **Segment:** Premium hatchback (5‑seater)\n- **Engine options:** 1.2 L Turbocharged Petrol (≈ 110 PS) and 1.5 L Turbocharged Diesel (≈ 110 PS); both paired with 6‑speed manual or 6‑speed AMT\n- **Safety:** 5‑star Global NCAP rating, dual front airbags, ABS with EBD, ESC, ISOFIX, rear parking sensors and camera on higher trims\n- **Features:** 7‑inch touchscreen infotainment with Android Auto & Apple CarPlay, automatic climate control, projector headlamps, LED DRLs, cruise control, steering‑mounted audio controls\n- **Ground clearance:** 190 mm – good for Indian road conditions\n- **Price (ex‑showroom):** roughly ₹7.5 L to ₹12.5 L depending on variant, fuel type and city\n- **Warranty & service:** 5‑year/1,50,000 km warranty with optional service packages",
+      "timestamp": "2026-04-02T08:35:43.079Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Altroz"
+        }
+      },
+      "follow_up": "Would you like to explore the specific variants, check the on‑road price for your city, or discuss financing options?"
+    },
+    {
+      "role": "human",
+      "content": "i want to book a test drive for altroz",
+      "timestamp": "2026-04-02T08:36:45.875Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! We can arrange a test drive for the Tata Altroz, our premium hatchback that offers 5‑star safety, stylish design, and engine options ranging from a 1.2 L Turbo Petrol to a 1.5 L Turbo Diesel. Let us know your city, preferred date and time, and we’ll set it up at the nearest Tata Motors showroom.",
+      "timestamp": "2026-04-02T08:36:50.684Z",
+      "component": {
+        "required": true,
+        "name": "car_card",
+        "content": {
+          "model": "Tata Altroz"
+        }
+      },
+      "follow_up": "Which variant are you interested in – the Turbo Petrol or Turbo Diesel – and when would you like to schedule the test drive?"
+    }
+  ],
+  "userState": {
+    "budget": null,
+    "family_size": null,
+    "fuel_preference": null,
+    "usage_pattern": null,
+    "location": null,
+    "needs_interruption": true,
+    "is_hinglish_speaker": false,
+    "query_type": "car_card"
+  },
+  "lastAgentOutput": {
+    "text": "Sure! We can arrange a test drive for the Tata Altroz, our premium hatchback that offers 5‑star safety, stylish design, and engine options ranging from a 1.2 L Turbo Petrol to a 1.5 L Turbo Diesel. Let us know your city, preferred date and time, and we’ll set it up at the nearest Tata Motors showroom.",
+    "component": {
+      "required": true,
+      "name": "car_card",
+      "content": {
+        "model": "Tata Altroz"
+      }
+    },
+    "follow_up": "Which variant are you interested in – the Turbo Petrol or Turbo Diesel – and when would you like to schedule the test drive?"
+  },
+  "createdAt": "2026-04-02T07:18:33.984Z",
+  "updatedAt": "2026-04-02T08:36:50.691Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "cb8958cd-78c7-4181-9547-0f02fd4f3eca",
+  "messages": [
+    {
+      "role": "human",
+      "content": "Calculate EMI for Nexon Diesel",
+      "timestamp": "2026-03-29T08:39:12.309Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nexon Diesel EMI breakdown based on a typical on‑road price of ₹11,50,000:",
+      "timestamp": "2026-03-29T08:39:15.351Z"
+    },
+    {
+      "role": "human",
+      "content": "yes",
+      "timestamp": "2026-03-29T08:39:18.794Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nexon Diesel EMI breakdown at 9.5% interest:",
+      "timestamp": "2026-03-29T08:39:22.117Z"
+    }
+  ],
+  "userState": {
+    "budget": null,
+    "family_size": null,
+    "fuel_preference": "diesel",
+    "usage_pattern": null,
+    "location": null,
+    "needs_interruption": false,
+    "is_hinglish_speaker": false,
+    "query_type": "show_calculation"
+  },
+  "lastAgentOutput": {
+    "text": "Nexon Diesel EMI breakdown at 9.5% interest:",
+    "component": {
+      "required": true,
+      "name": "show_calculation",
+      "content": {
+        "title": "Nexon Diesel EMI Calculator",
+        "inputs": [
+          {
+            "label": "On-road Price",
+            "value": "₹11,50,000"
+          },
+          {
+            "label": "Down Payment (20%)",
+            "value": "₹2,30,000"
+          },
+          {
+            "label": "Loan Amount",
+            "value": "₹9,20,000"
+          },
+          {
+            "label": "Interest Rate",
+            "value": "9.5%"
+          },
+          {
+            "label": "Tenure",
+            "value": "60 months"
+          }
+        ],
+        "steps": [
+          {
+            "step": "Monthly Rate = 9.5% / 12",
+            "result": "0.7917%"
+          },
+          {
+            "step": "EMI = [P × r × (1+r)^n] / [(1+r)^n – 1]",
+            "result": "₹19,500 per month"
+          }
+        ],
+        "result": {
+          "label": "Monthly EMI",
+          "value": "₹19,500"
+        }
+      }
+    },
+    "follow_up": "Would you like to explore a zero‑down option or check the on‑road price for your city?"
+  },
+  "createdAt": "2026-03-29T07:27:41.495Z",
+  "updatedAt": "2026-03-29T08:39:22.120Z"
+}

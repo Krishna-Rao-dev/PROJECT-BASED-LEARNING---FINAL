@@ -1,0 +1,17 @@
+{
+  "id": "df1bff8e-4cdf-4eb3-81d5-08ef6f1d8e65",
+  "messages": [],
+  "userState": {
+    "budget": null,
+    "family_size": null,
+    "fuel_preference": null,
+    "usage_pattern": null,
+    "location": null,
+    "needs_interruption": false,
+    "is_hinglish_speaker": false,
+    "query_type": "general"
+  },
+  "lastAgentOutput": null,
+  "createdAt": "2026-03-29T07:22:45.295Z",
+  "updatedAt": "2026-03-29T07:24:29.899Z"
+}
