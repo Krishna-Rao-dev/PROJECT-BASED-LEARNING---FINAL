@@ -151,3 +151,23 @@ Compares multiple vehicles side-by-side.
 
 ## 🏁 Conclusion
 The Tata Motors AI Sales Assistant is more than a chatbot; it's a digital showroom experience. By combining **Agentic AI** for reasoning and **Generative UI** for presentation, it sets a new standard for how automotive brands engage with modern, tech-savvy customers.
+
+
+Here are the snapshots of the application:
+<br/>
+<img width="1429" height="891" alt="image" src="https://github.com/user-attachments/assets/05079707-72cf-466c-987a-057c929d06a9" />
+<br/>
+<img width="926" height="915" alt="image" src="https://github.com/user-attachments/assets/545de38b-ce7f-4bdc-a0cf-d8ff0519de2d" />
+<br/>
+<img width="1499" height="805" alt="image" src="https://github.com/user-attachments/assets/6e0fd4a6-64c9-46e2-83ff-42c491903ee1" />
+<br/>
+<img width="1916" height="898" alt="image" src="https://github.com/user-attachments/assets/815e99db-c0fb-49ec-98f0-434569328486" />
+<br/>
+<img width="1115" height="856" alt="image" src="https://github.com/user-attachments/assets/f6477f35-b68d-4ed5-944d-1fcce45d7628" />
+<br/>
+<img width="1898" height="902" alt="image" src="https://github.com/user-attachments/assets/fdecfbe3-d5bc-4c8d-9b82-715690ec8d93" />
+<br/>
+<img width="1910" height="911" alt="image" src="https://github.com/user-attachments/assets/a73835e1-89e8-4d6e-8ab9-190934eec77a" />
+
+
+
