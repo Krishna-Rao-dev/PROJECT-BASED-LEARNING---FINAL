@@ -127,11 +127,9 @@ Compares multiple vehicles side-by-side.
 2. Install dependencies: `npm install`
 3. Create a `.env` file:
    ```env
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   OPENAI_API_KEY=your_api_key
+   GROQ_API_KEY = YOUR_API_KEY
    ```
-4. Start the server: `node server.js`
+4. Start the server: `npm run dev`
 
 ### Frontend Setup
 1. Navigate to the `final-app-pbl` directory.
