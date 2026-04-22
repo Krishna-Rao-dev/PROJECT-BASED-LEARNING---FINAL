@@ -135,6 +135,10 @@ Compares multiple vehicles side-by-side.
 1. Navigate to the `final-app-pbl` directory.
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
+### Backend Setup :
+1. Navigate to the `Backend` directory.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
 ---
 
